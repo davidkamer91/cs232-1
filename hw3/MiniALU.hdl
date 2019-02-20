@@ -10,12 +10,12 @@ f is control bits
 111: SLT (SET LESS THAN) out is 1 if a < b else 0
 */
 
-CHIP MINIALU {
+CHIP MiniALU {
     IN  
-        a[16], b[16], f[3];  // 16-bit inputs and control bit   
+        a[16], b[16], f[3];  // 16-bit inputs and control bits   
 
     OUT 
-        out[16]; // 16-bit output, no count
+        out[16]; // 16-bit output
 
     PARTS:
 }
